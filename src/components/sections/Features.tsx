@@ -10,18 +10,13 @@ export default function Features() {
             Experiment at Scale
           </h2>
           <p className="text-xl text-gray-600">
-            We work data-centric AI that combines at Scale
+            We build data-centric AI that scales
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((f, i) => (
-            <FeatureCard
-              key={i}
-              Icon={f.icon}
-              title={f.title}
-              description={f.description}
-            />
+          {features.map((feature, i) => (
+            <FeatureCard key={i} {...feature} />
           ))}
         </div>
       </div>

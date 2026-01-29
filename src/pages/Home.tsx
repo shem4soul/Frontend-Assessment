@@ -1,9 +1,8 @@
 import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
 import Hero from "../components/sections/Hero";
 import Features from "../components/sections/Features";
 import Integrations from "../components/sections/Integrations";
-import Testimonial from "../components/sections/Testimonial";
+import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Integrations />
-      <Testimonial />
       <Footer />
     </>
   );

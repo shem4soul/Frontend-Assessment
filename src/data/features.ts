@@ -24,7 +24,7 @@ export const features = [
     icon: MessageSquare,
     title: "Integrations",
     description:
-      "Stay in flow—aggregate AI apps like Slack and centralize work.",
+      "Stay in flow—aggregate AI apps like Slack to centralize work.",
   },
   {
     icon: BarChart3,
@@ -35,7 +35,8 @@ export const features = [
   {
     icon: TrendingUp,
     title: "SLA tracking",
-    description: "Track and meet SLA in AI evaluations with alerting.",
+    description:
+      "Track and meet SLA in AI evaluations for tracking and alerting.",
   },
   {
     icon: Target,
@@ -52,11 +53,12 @@ export const features = [
   {
     icon: Workflow,
     title: "Custom workflows",
-    description: "Design workflows that fit customer needs in minutes.",
+    description:
+      "Design workflows that fit customer needs in minutes with AI logic.",
   },
   {
     icon: Package,
     title: "Product development",
-    description: "Improve products with faster time to market.",
+    description: "Improve products and services with faster time to market.",
   },
 ];
